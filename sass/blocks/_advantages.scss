@@ -1,0 +1,58 @@
+.advantages {
+    background-color: #f6f6f6;
+    min-height: 473px;
+    padding: 73px 0 64px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    &__header {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        color: $secondary-color;
+        text-transform: uppercase;
+    }
+    &__items {
+        display: flex;
+        justify-content: center;
+        gap: 65px;
+    }
+    .item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 270px;
+        &__img {
+            height: 70px;
+            width: 70px;
+        }
+        &__header {
+            margin-top: 35px;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 29px;
+            text-align: center;
+            color: $secondary-color;
+        }
+        &__descr {
+            margin-top: 12px;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 18px;
+            text-align: center;
+            color: $secondary-color;
+        }
+        &__spec-text {
+            font-family: 'MuseoModerno';
+            text-decoration-line: underline;
+            color: #FF0000;
+            &:hover {
+                color: #FF0000;
+            }
+        }
+    }
+}
+
+
+
