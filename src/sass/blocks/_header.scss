@@ -3,7 +3,10 @@
     justify-content: space-between;
     align-items: center;
     &__logo {
-        width: 250px;
+        img {
+            width: 250px;
+        }
+        
     }
     &__official {
         color: #ffffff;
@@ -30,3 +33,23 @@
         align-items: flex-end;
     }
 }
+
+
+
+@media (max-width: 640px) {
+    .header {
+        &__logo {
+            img {
+                width: 165px;
+            }
+        }
+        &__official {
+            display: none;
+        }
+        &__phone {
+            display: none;
+        }
+    }   
+}
+
+
