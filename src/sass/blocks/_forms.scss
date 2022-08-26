@@ -18,3 +18,17 @@
         }
     }
 }
+
+@media (max-width: 970px) {
+    .feed-form {
+        width: 310px;
+        margin: 30px auto;
+    }
+}
+
+@media (max-width: 355px) {
+    .feed-form {
+        width: 255px;
+        margin: 30px auto;
+    }
+}

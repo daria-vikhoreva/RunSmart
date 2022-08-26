@@ -8,3 +8,19 @@
         color: #FFFFFF;
     }
 }
+
+@media (max-width: 970px) {
+    .consultation {
+        padding: 73px 15px 64px 20px;
+        min-height: 380px;
+    }
+}
+
+@media (max-width: 525px) {
+    .consultation {
+        &__descr {
+            font-size: 17px;
+            text-align: center;
+        }
+    }
+}
