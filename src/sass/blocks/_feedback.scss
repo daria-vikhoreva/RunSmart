@@ -1,0 +1,42 @@
+.feedbacks {
+    padding-bottom: 60px;
+    &__items {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        margin-top: 60px;
+        li {
+            list-style-type: none;
+        }
+    }
+    .feedback {
+        &__item {
+            display: flex;
+            gap: 60px;
+        }
+        &__person {
+            font-weight: 700;
+            font-size: 18px;
+            color: #0D0D0D;
+        }
+        &__stats {
+            font-weight: 500;
+            font-size: 14px;
+            color: #646464;
+        }
+        &__descr {
+            margin-top: 10px;
+            font-weight: 300;
+            font-size: 16px;
+            color: #0D0D0D;
+        }
+    }
+    
+}
+
+@media (max-width: 960px) {
+    .feedbacks {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
