@@ -4,6 +4,22 @@
         position: relative;
         width: 750px;
         margin: 0 auto;
+        .slick-dots {
+            display: flex;
+            justify-content: center;
+            li {
+                list-style-type: none;
+                button {
+                    font-size: 0;
+                    width: 10px;
+                    height: 10px;
+                    border-radius: 100%;
+                    border: none;
+                    background-color: $main-color;
+                    margin-right: 5px;
+                }
+            }
+        }
     }
     .slick-prev, .slick-next {
         border: none;
@@ -22,4 +38,3 @@
         left: auto;
     }
 }
-
