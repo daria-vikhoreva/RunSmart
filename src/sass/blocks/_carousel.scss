@@ -38,3 +38,14 @@
         left: auto;
     }
 }
+
+@media (max-width: 770px) {
+    .carousel {
+        &__inner {
+            width: 90vw;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
