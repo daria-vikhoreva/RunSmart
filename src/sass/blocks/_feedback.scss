@@ -42,10 +42,15 @@
 }
 
 @media (max-width: 600px) {
-    .feedback {
-        &__img {
-            img {
-                width: 100px;
+    .feedbacks {
+        .feedback {
+            &__img {
+                img {
+                    width: 100px;
+                }
+            }
+            &__descr {
+                font-size: 14px;
             }
         }
     }
