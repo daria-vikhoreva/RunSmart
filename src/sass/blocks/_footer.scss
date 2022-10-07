@@ -50,3 +50,15 @@
         align-items: center;
     }
 }
+
+
+@media (max-width: 340px) {
+    .footer {
+        &__address {
+            font-size: 18px;
+        }
+        &__phone {
+            font-size: 18px;
+        }
+    }
+}
