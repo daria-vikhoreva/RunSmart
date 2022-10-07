@@ -43,6 +43,7 @@
         gap: 18px;
         &_active {
             display: flex;
+            justify-content: center;
         }
 
     }
@@ -162,6 +163,43 @@
             text-transform: uppercase;
             &:hover {
                 color: $main-color;
+            }
+        }
+    }
+}
+
+@media (max-width: 715px) {
+    .catalog {
+        &__tab {
+            width: 170px;
+            font-size: 16px;
+        }
+    }
+}
+
+@media (max-width: 560px) {
+    .catalog {
+        &__tab {
+            width: 140px;
+            font-size: 14px;
+        }
+    }
+}
+
+@media (max-width: 435px) {
+    .catalog {
+        &__tabs {
+            flex-direction: column;
+            margin-top: 40px;
+        }
+        &__tab {
+            width: 80%;
+            height: 45px;
+            margin-bottom: 8px;
+        }
+        &-item {
+            &__subtitle {
+                font-size: 18px;
             }
         }
     }
