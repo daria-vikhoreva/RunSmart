@@ -40,3 +40,28 @@
         padding-left: 20px;
     }
 }
+
+@media (max-width: 600px) {
+    .feedback {
+        &__img {
+            img {
+                width: 100px;
+            }
+        }
+    }
+}
+
+@media (max-width: 370px) {
+    .feedbacks {
+        .feedback {
+            &__img {
+                img {
+                    width: 80px;
+                }
+            }
+            &__item {
+                gap: 30px;
+            }
+        }
+    }
+}
