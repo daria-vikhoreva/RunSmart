@@ -60,3 +60,4 @@ gulp.task('images', function() {
 
 
 gulp.task('default', gulp.parallel('watch', 'server', 'styles', 'html', 'scripts', 'fonts', 'icons', 'images'));
+gulp.task('build', gulp.parallel('styles', 'html', 'scripts', 'fonts', 'icons', 'images'));
